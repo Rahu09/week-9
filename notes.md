@@ -25,3 +25,6 @@ $ nvm install node
 
 installed modules - 
 $ npm i
+
+command to exit the aws machine - 
+$ exit
