@@ -14,7 +14,7 @@ const authenticateJwt = (req, res, next) => {
     });
   } else {
     res.status(401).json({
-      msz:"you are maybe unauthorized. checking CI/CD pipe"
+      msz:"you are maybe unauthorized. checking CI/CD"
     });
   }
 };
