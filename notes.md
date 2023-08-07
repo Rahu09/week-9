@@ -26,5 +26,15 @@ $ nvm install node
 installed modules - 
 $ npm i
 
+to continiously run the backend server we need process manager like pm2 - 
+$ npm i -g pm2
+$ pm2 start filename.js
+$ pm2 list
+$ pm2 kill
+
+now if change comes we need to type so many  command (from top till now so we will automate it using ci/cd)
+
+
 command to exit the aws machine - 
 $ exit
+
