@@ -13,7 +13,7 @@ const authenticateJwt = (req, res, next) => {
       next();
     });
   } else {
-    res.sendStatus(401).json({
+    res.status(401).json({
       msz:"you are maybe unauthorized"
     });
   }
